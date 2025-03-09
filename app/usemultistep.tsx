@@ -1,21 +1,3 @@
-// 'use client'
-// import React from 'react'
-// import { useState, useRef } from 'react'
-
-// export function usemultistep() {
-
-//     const [step, setstep] = useState(1)
-
-
-//     function next() {
-//         setstep(step + 1);
-//         console.log(step)
-//     }
-//     return {
-//         step,
-//         next
-//     }
-// }
 
 'use client';
 import { useState } from 'react';
