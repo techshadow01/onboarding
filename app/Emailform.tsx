@@ -34,10 +34,13 @@ const Emailform: React.FC<EmailFormProps> = ({ next }) => {
     return (
         <div className='w-[1280px] h-[760px] shadow-xl flex bg-transparent'>
             <div className='w-[50%] h-full bg-white flex flex-col gap-10 rounded-r-[50px] p-4'>
+
+                //logo
                 <div>
                     <div className='bg-black h-[30px] w-[30px] p-[12px]'></div>
                 </div>
 
+                // multi loader
                 <div className='flex items-center justify-center'>
                     <div className='w-[90px] h-[49px] flex flex-col gap-[10px] items-center justify-center'>
                         <div className='h-[20px] aspect-square rounded-full bg-[#00C5FF] text-center text-sm text-white'>
@@ -74,6 +77,7 @@ const Emailform: React.FC<EmailFormProps> = ({ next }) => {
                     </div>
                 </div>
 
+                // form
                 <form onSubmit={onSubmit} className='flex items-center justify-center'>
                     <div className='flex flex-col gap-[24px]'>
                         <div>
