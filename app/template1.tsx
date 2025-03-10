@@ -106,7 +106,7 @@ const Template1: React.FC = () => {
                     <div key={index} className='flex flex-col items-center justify-center gap-6'>
                         <div className='flex flex-col items-center justify-center gap-2'>
                             <div className='text-[14px] font-[500]'>Full Story</div>
-                            <div className='text-[10px] font-[400]'>Template {index + 1} of {info.length}</div>
+                            <div className='text-[10px] font-[400]'>Template {index + 1} of 5</div>
                         </div>
 
                         <Image
