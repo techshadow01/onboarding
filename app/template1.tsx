@@ -31,34 +31,34 @@ const selected = () => {
 
 const Template1: React.FC = () => {
 
-    const info: TemplateInfo[] = [
+        const info: TemplateInfo[] = [
         {
             photo: Temp1,
             sections: [
                 {
                     src: Person,
                     about: 'about you',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
                 {
                     src: Msg,
                     about: 'Contact section',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
                 {
                     src: Building,
                     about: 'About current company',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
                 {
                     src: Link,
                     about: 'Content - Links & files',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
                 {
                     src: Scenery,
                     about: 'Gallery - Video, image & gif',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
             ],
         },
@@ -68,27 +68,27 @@ const Template1: React.FC = () => {
                 {
                     src: Person,
                     about: 'about you',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
                 {
                     src: Msg,
                     about: 'Contact section',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
                 {
                     src: Building,
                     about: 'About current company',
-                    color: "#2C7BDE"
+                    color: "text-[#2C7BDE]"
                 },
                 {
                     src: Link2,
                     about: 'Content - Links & files',
-                    color: "#000000"
+                    color: "text-[#D4D4D8]"
                 },
                 {
                     src: Scenery2,
                     about: 'Gallery - Video, image & gif',
-                    color: "#000000"
+                    color: "text-[#D4D4D8]"
                 },
             ],
         },
@@ -132,7 +132,7 @@ const Template1: React.FC = () => {
                                 <div key={index1} className='relative flex flex-col gap-[11px] text-[14px] font-[400]'>
                                     <div className='flex gap-[8px]'>
                                         <Image src={section.src} alt={section.about} width={10} />
-                                        <div className={`text-[${section.color}]`}>{section.about}</div>
+                                        <div className={`${section.color}`}>{section.about}</div>
                                     </div>
                                 </div>
                             ))}
