@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { usemultistep } from './usemultistep';
+import { usemultistep } from './Usemultistep';
 import UserForm from './UserForm';
 import Emailform from './Emailform';
 import Templateform from './template1';
